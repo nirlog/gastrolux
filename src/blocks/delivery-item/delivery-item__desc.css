@@ -1,0 +1,8 @@
+.delivery-item__desc {}
+
+@media screen and (max-width: 700px) {
+    .delivery-item__desc {
+        grid-template-columns: 1fr auto;
+        grid-column: 1/3;
+    }
+}

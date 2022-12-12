@@ -1,0 +1,5 @@
+.structure-order__product-list {
+    overflow-y: auto;
+    max-height: 300px;
+    margin: 0;
+}

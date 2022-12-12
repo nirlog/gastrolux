@@ -1,0 +1,13 @@
+.delivery-filters__checkbox {
+    display: flex;
+    align-items: center;
+    min-width: 130px;
+}
+
+.delivery-filters__checkbox > input[type="checkbox"] {
+    background: #FFFFFF;
+    border: 0.668344px solid rgba(38, 59, 58, 0.08);
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}

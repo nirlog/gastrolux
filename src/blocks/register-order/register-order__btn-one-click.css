@@ -1,0 +1,13 @@
+.register-order__btn-one-click {
+    background-color: #263B3A;
+    color: #fff;
+}
+
+.register-order__btn-one-click:hover {
+    background-color: rgba(38, 59, 58, 0.7);
+
+}
+.register-order__btn-one-click:active {
+    background-color: #fff;
+    color: #263B3A;
+}

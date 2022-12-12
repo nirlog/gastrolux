@@ -1,0 +1,21 @@
+.register-order__btn {
+    width: 100%;
+    height: 42px;
+    background: #FFFFFF;
+    border: 1px solid #263B3A;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #263B3A;
+    transition: all .2s ease;
+}
+
+.register-order__btn:hover {
+    background-color: rgba(38, 59, 58, 0.1);
+}
+.register-order__btn:active {
+    background-color: #263B3A;
+    color: #fff;
+}

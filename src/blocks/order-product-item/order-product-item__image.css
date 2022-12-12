@@ -1,0 +1,9 @@
+.order-product-item__image img {
+    width: 117px;
+}
+
+@media screen and (max-width: 700px) {
+    .order-product-item__image img {
+        width: 60px;
+    }
+}

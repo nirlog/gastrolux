@@ -1,0 +1,12 @@
+.promocode__input {
+    height: 42px;
+    background: #FFFFFF;
+    border: 1px solid #263B3A;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 275px;
+}
+
+.promocode__input::placeholder {
+    opacity: 0.2;
+}

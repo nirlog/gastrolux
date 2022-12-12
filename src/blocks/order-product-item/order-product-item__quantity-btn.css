@@ -1,0 +1,11 @@
+.order-product-item__quantity-btn {
+    width: 30px;
+    height: 30px;
+    background: rgba(38, 59, 58, 0.08);
+    border-radius: 60px;
+    border: 0;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

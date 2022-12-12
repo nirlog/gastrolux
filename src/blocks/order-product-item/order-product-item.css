@@ -1,0 +1,6 @@
+.order-product-item {
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    gap: 10px;
+}

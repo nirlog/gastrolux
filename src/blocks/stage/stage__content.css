@@ -1,0 +1,12 @@
+.stage__content {
+    padding-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .stage__content {
+        grid-template-columns: 1fr;
+    }
+}

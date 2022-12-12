@@ -1,0 +1,15 @@
+.order-product-item__name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #13141B;
+}
+
+@media screen and (max-width: 700px) {
+    .order-product-item__name {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}

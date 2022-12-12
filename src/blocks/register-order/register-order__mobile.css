@@ -1,0 +1,16 @@
+.register-order__mobile {
+    display: none;
+    border-top: 1px solid rgba(38,59,58,.08);
+    margin-top: 20px;
+    padding: 10px 0 0;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+    .register-order__mobile {
+        display: block;
+        position: sticky;
+        bottom: 0;
+        z-index: 10;
+    }
+}

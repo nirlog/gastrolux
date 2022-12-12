@@ -1,0 +1,13 @@
+.pay-btn__desc {
+    padding: 0;
+    margin: 0;
+    color: #263B3A;
+    opacity: 0.6;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    padding-top: 2px;
+
+}

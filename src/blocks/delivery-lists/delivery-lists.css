@@ -1,0 +1,8 @@
+.delivery-lists {
+    width: 100%;
+    display: none;
+}
+
+.delivery-lists.active {
+    display: block;
+}

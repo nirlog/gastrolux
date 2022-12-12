@@ -1,0 +1,20 @@
+.delivery-item__btn {
+    background-color: #fff;
+    color: #13141B;
+    border: 1px solid #263B3A;
+    padding: 10px 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    transition: all .2s ease;
+}
+
+.delivery-item__btn:hover {
+    background-color: rgba(38, 59, 58, 0.1);
+}
+.delivery-item__btn:active {
+    background-color: #263B3A;
+    color: #fff;
+}

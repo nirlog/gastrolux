@@ -1,0 +1,5 @@
+.order-product-item__quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

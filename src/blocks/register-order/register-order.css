@@ -1,0 +1,19 @@
+.register-order {
+    border-top: 1px solid rgba(38,59,58,.08);
+    margin-top: 20px;
+    padding: 10px 0 0;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 1100px) {
+    .register-order {
+        order: 5;
+        grid-column: 1/4;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .register-order {
+        display: none;
+    }
+}

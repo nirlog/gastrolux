@@ -35,6 +35,8 @@
     "webpack-dev-server": "^4.9.3"
   },
   "dependencies": {
+    "jquery": "^3.6.1",
+    "jquery.scrollbar": "^0.2.11",
     "normalize.css": "^8.0.1"
   },
   "description": ""

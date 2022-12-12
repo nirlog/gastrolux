@@ -1,0 +1,7 @@
+.delivery-item__storage-time {
+    padding-top: 6px;
+}
+
+.delivery-item__storage-time span {
+    font-weight: 700;
+}

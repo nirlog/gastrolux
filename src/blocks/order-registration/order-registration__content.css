@@ -1,0 +1,12 @@
+.order-registration__content {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    justify-content: space-between;
+    position: relative;
+}
+
+@media screen and (max-width: 1100px) {
+    .order-registration__content {
+        grid-template-columns: 1fr;
+    }
+}

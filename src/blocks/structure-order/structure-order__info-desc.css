@@ -1,0 +1,11 @@
+.structure-order__info-desc {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #13141B;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 6px;
+}

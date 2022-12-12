@@ -1,1 +1,102 @@
-/* @import url(../blocks/credit-header/credit-header.css); */
+@import url(../blocks/scrollbar-inner/scrollbar-inner.css);
+
+@import url(../blocks/order-registration/order-registration.css);
+@import url(../blocks/order-registration/order-registration__content.css);
+@import url(../blocks/order-registration/order-registration__title.css);
+@import url(../blocks/order-registration/order-registration__stages.css);
+@import url(../blocks/order-registration/order-registration__stage.css);
+@import url(../blocks/order-registration/order-registration__structure.css);
+
+@import url(../blocks/stage/stage.css);
+@import url(../blocks/stage/stage__content.css);
+@import url(../blocks/stage/stage__number.css);
+@import url(../blocks/stage/stage__title.css);
+@import url(../blocks/stage/stage__label-text.css);
+@import url(../blocks/stage/stage__input-text.css);
+@import url(../blocks/stage/stage__payments.css);
+@import url(../blocks/stage/stage__pay-select.css);
+@import url(../blocks/stage/stage__delivery.css);
+@import url(../blocks/stage/stage__comment.css);
+
+@import url(../blocks/pay-btn/pay-btn.css);
+@import url(../blocks/pay-btn/pay-btn__icon.css);
+@import url(../blocks/pay-btn/pay-btn__name.css);
+@import url(../blocks/pay-btn/pay-btn__desc.css);
+
+@import url(../blocks/choice-delivery/choice-delivery.css);
+@import url(../blocks/choice-delivery/choice-delivery__btn.css);
+@import url(../blocks/choice-delivery/choice-delivery__select.css);
+
+@import url(../blocks/delivery-city/delivery-city.css);
+@import url(../blocks/delivery-city/delivery-city__label.css);
+@import url(../blocks/delivery-city/delivery-city__input.css);
+@import url(../blocks/delivery/delivery__input-text.css);
+@import url(../blocks/delivery/delivery__label.css);
+@import url(../blocks/delivery-address/delivery-address.css);
+@import url(../blocks/delivery-address/delivery-address__street.css);
+
+@import url(../blocks/delivery-filters/delivery-filters.css);
+@import url(../blocks/delivery-filters/delivery-filters__checks-block.css);
+@import url(../blocks/delivery-filters/delivery-filters__checkbox.css);
+@import url(../blocks/delivery-filters/delivery-filters__select.css);
+@import url(../blocks/delivery-filters/delivery-filters__btns.css);
+@import url(../blocks/delivery-filters/delivery-filters__btn.css);
+
+@import url(../blocks/delivery-lists/delivery-lists.css);
+@import url(../blocks/delivery-lists/delivery-lists__list.css);
+@import url(../blocks/delivery-lists/delivery-lists__map.css);
+
+@import url(../blocks/delivery-item/delivery-item.css);
+@import url(../blocks/delivery-item/delivery-item__address.css);
+@import url(../blocks/delivery-item/delivery-item__btn.css);
+@import url(../blocks/delivery-item/delivery-item__btns.css);
+@import url(../blocks/delivery-item/delivery-item__conditions.css);
+@import url(../blocks/delivery-item/delivery-item__delivery-time.css);
+@import url(../blocks/delivery-item/delivery-item__desc.css);
+@import url(../blocks/delivery-item/delivery-item__name.css);
+@import url(../blocks/delivery-item/delivery-item__shipping-cost.css);
+@import url(../blocks/delivery-item/delivery-item__storage-time.css);
+@import url(../blocks/delivery-item/delivery-item__works.css);
+
+@import url(../blocks/order-comment/order-comment.css);
+
+@import url(../blocks/structure-order/structure-order.css);
+@import url(../blocks/structure-order/structure-order__title.css);
+@import url(../blocks/structure-order/structure-order__product-block.css);
+@import url(../blocks/structure-order/structure-order__product-list.css);
+@import url(../blocks/structure-order/structure-order__info.css);
+@import url(../blocks/structure-order/structure-order__info-price.css);
+@import url(../blocks/structure-order/structure-order__info-name.css);
+@import url(../blocks/structure-order/structure-order__info-desc.css);
+@import url(../blocks/structure-order/structure-order__info-block.css);
+@import url(../blocks/structure-order/structure-order__promocode.css);
+
+@import url(../blocks/order-product-item/order-product-item.css);
+@import url(../blocks/order-product-item/order-product-item__article.css);
+@import url(../blocks/order-product-item/order-product-item__content.css);
+@import url(../blocks/order-product-item/order-product-item__control.css);
+@import url(../blocks/order-product-item/order-product-item__discount.css);
+@import url(../blocks/order-product-item/order-product-item__image.css);
+@import url(../blocks/order-product-item/order-product-item__name.css);
+@import url(../blocks/order-product-item/order-product-item__old-price.css);
+@import url(../blocks/order-product-item/order-product-item__price.css);
+@import url(../blocks/order-product-item/order-product-item__prices.css);
+@import url(../blocks/order-product-item/order-product-item__quantity-btn.css);
+@import url(../blocks/order-product-item/order-product-item__quantity.css);
+@import url(../blocks/order-product-item/order-product-item__quantity-value.css);
+@import url(../blocks/order-product-item/order-product-item__percent.css);
+
+@import url(../blocks/promocode/promocode__title.css);
+@import url(../blocks/promocode/promocode__input.css);
+@import url(../blocks/promocode/promocode__btn.css);
+@import url(../blocks/promocode/promocode__content.css);
+
+@import url(../blocks/register-order/register-order.css);
+@import url(../blocks/register-order/register-order__result.css);
+@import url(../blocks/register-order/register-order__btns.css);
+@import url(../blocks/register-order/register-order__btn.css);
+@import url(../blocks/register-order/register-order__btn-one-click.css);
+@import url(../blocks/register-order/register-order__agreement.css);
+@import url(../blocks/register-order/register-order__agreement-checkbox.css);
+@import url(../blocks/register-order/register-order__agreement-link.css);
+@import url(../blocks/register-order/register-order__mobile.css);

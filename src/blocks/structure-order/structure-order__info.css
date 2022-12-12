@@ -1,0 +1,11 @@
+.structure-order__info {
+
+}
+
+@media screen and (max-width: 1100px) {
+    .structure-order__info {
+            order: 3;
+            grid-row: 2/3;
+            grid-column: 3/4;
+    }
+}

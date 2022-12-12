@@ -1,0 +1,10 @@
+.delivery-filters__btns {
+    display: flex;
+}
+
+@media screen and (max-width: 700px) {
+    .delivery-filters__btns {
+        width: 100%;
+        margin-top: 20px;
+    }
+}

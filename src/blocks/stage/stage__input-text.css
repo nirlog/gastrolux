@@ -1,0 +1,13 @@
+.stage__input-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.002em;
+    color: #263B3A;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    display: block;
+    }

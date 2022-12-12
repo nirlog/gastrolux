@@ -1,0 +1,7 @@
+.delivery-item__shipping-cost {
+    padding-top: 6px;
+}
+
+.delivery-item__shipping-cost span {
+    font-weight: 700;
+}

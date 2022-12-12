@@ -1,0 +1,19 @@
+.structure-order__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #13141B;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1100px) {
+    .structure-order__title {
+        grid-column: 1/4;
+        grid-row: 1/2;
+        order: 1;
+    }
+}

@@ -1,0 +1,12 @@
+.delivery-lists__map {
+  width: 100%;
+  background-color: #efefef;
+  height: 500px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.delivery-lists__map.active {
+    display: flex;
+}

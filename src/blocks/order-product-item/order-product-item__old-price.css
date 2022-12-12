@@ -1,0 +1,11 @@
+.order-product-item__old-price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-decoration-line: line-through;
+    color: #13141B;
+    opacity: 0.5;
+    margin-left: 10px;
+}

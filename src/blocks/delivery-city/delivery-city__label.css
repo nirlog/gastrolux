@@ -1,0 +1,9 @@
+.delivery-city__label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.002em;
+    color: rgba(38, 59, 58, 0.18);
+}
