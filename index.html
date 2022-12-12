@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gastrolux</title>
+<script defer src="js/index.51e25a4b79a29cb4a92f.js"></script><link href="index.css" rel="stylesheet"></head>
+<body>
+  <div class="order-registration">
+    <h1 class="order-registration__title">Оформление заказа</h1>
+    <div class="order-registration__content">
+      <div class="order-registration__stages">
+        <div class="stage order-registration__stage">
+          <h3 class="stage__title">
+            <div class="stage__number">1</div>
+            Контактная информация
+          </h3>
+          <div class="stage__content">
+            <label class="stage__label-text">
+              Имя*
+              <input type="text" name="" id="" class="stage__input-text">
+            </label>
+            <label class="stage__label-text">
+              Фамилия*
+              <input type="text" name="" id="" class="stage__input-text">
+            </label>
+            <label class="stage__label-text">
+              Электроная почта*
+              <input type="email" name="" id="" class="stage__input-text">
+            </label>
+            <label class="stage__label-text error">
+              Телефон*
+              <input type="text" name="" id="" class="stage__input-text">
+              <span class="error">Номер телефона должен состоять из 11 цифр.</span>
+            </label>
+          </div>
+        </div>
+        <div class="stage order-registration__stage">
+          <h3 class="stage__title">
+            <div class="stage__number">2</div>
+            Оплата
+          </h3>
+          <div class="stage__content stage__payments">
+            <select class="stage__pay-select" name="" id="">
+              <option value="0">Картой онлайн</option>
+              <option value="1">При получении</option>
+              <option value="2">Расрочка от Тинькофф</option>
+              <option value="3">Yandex Pay</option>
+            </select>
+            <div class="pay-btn" data-val="0">
+                <img class="pay-btn__icon" src="images/pay1.svg" alt="Картой онлайн">
+              <div>
+                <p class="pay-btn__name">Картой онлайн</p>
+                <p class="pay-btn__desc">Mastercard, Visa, Мир</p>
+              </div>
+            </div>
+            <div class="pay-btn" data-val="1">
+              <img class="pay-btn__icon" src="images/pay2.svg" alt="При получении">
+              <div>
+                <p class="pay-btn__name">При получении</p>
+                <p class="pay-btn__desc">Картой или наличными</p>
+              </div>
+            </div>
+            <div class="pay-btn" data-val="2">
+              <img class="pay-btn__icon" src="images/pay3.svg" alt="Расрочка от Тинькофф">
+              <div>
+                <p class="pay-btn__name">Расрочка от Тинькофф</p>
+                <p class="pay-btn__desc">Срок рассрочки — от 3 до 12 месяцев</p>
+              </div>
+            </div>
+            <div class="pay-btn" data-val="3">
+                <img class="pay-btn__icon" src="images/pay4.svg" alt="Yandex Pay"> 
+              <div>
+                <p class="pay-btn__name">Yandex Pay</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="stage order-registration__stage">
+          <h3 class="stage__title">
+            <div class="stage__number">3</div>
+            Способ доставки
+          </h3>
+          <div class="stage__content stage__delivery">
+            <div class="choice-delivery">
+              <select class="choice-delivery__select" name="" id="">
+                <option value="0">Доставка курьером</option>
+                <option value="1">Пункт выдачи</option>
+              </select>
+              <div class="choice-delivery__btn js-delivery-courier active" data-val="0">Доставка курьером</div>
+              <div class="choice-delivery__btn js-delivery-poi" data-val="1">Пункт выдачи</div>
+            </div>
+            <div class="delivery-city">
+              <label class="delivery-city__label">Город*
+                <input type="text" name="" id="" class="delivery__input-text">
+              </label>
+            </div>
+            <div class="delivery-address active">
+              <label class="delivery__label delivery-address__street">Улица
+                <input type="text" name="" id="" class="delivery__input-text delivery-address__street">
+              </label>
+              <label class="delivery__label">Дом
+                <input type="text" name="" id="" class="delivery__input-text">
+              </label>
+              <label class="delivery__label">Корпус
+                <input type="text" name="" id="" class="delivery__input-text">
+              </label>
+              <label class="delivery__label">Квартира
+                <input type="text" name="" id="" class="delivery__input-text">
+              </label>
+            </div>
+            <div class="delivery-filters">
+              <div class="delivery-filters__checks-block">
+                <label class="delivery-filters__checkbox">
+                  <input type="checkbox" name="" id=""> Наличными
+                </label>
+                <label class="delivery-filters__checkbox">
+                  <input type="checkbox" name="" id=""> Оплата картой
+                </label>
+              </div>
+              <select class="delivery-filters__select">
+                <option value="">Выберите из списка или на карте</option>
+                <option value="0">Boxberry пункты выдачи ПВЗ-03012</option>
+                <option value="1">Boxberry пункты выдачи ПВЗ-03013</option>
+                <option value="2">Boxberry пункты выдачи ПВЗ-03014</option>
+                <option value="3">Boxberry пункты выдачи ПВЗ-03015</option>
+                <option value="4">Boxberry пункты выдачи ПВЗ-03016</option>
+              </select>
+              <div class="delivery-filters__btns">
+                <button class="delivery-filters__btn btn-filter_list active">
+                  <img class="delivery-filters__btn-icon" src="images/btn-list.svg" alt="Списком">
+                    Списком
+                  </button>
+                <button class="delivery-filters__btn btn-filter_map">
+                  <img class="delivery-filters__btn-icon" src="images/btn-map.svg" alt="На карте">
+                    На карте
+                  </button>
+              </div>
+            </div>
+            <div class="delivery-lists">
+              <div class="scrollbar-inner delivery-lists__list active">
+                <div class="delivery-item">
+                  <div class="delivery-item__desc">
+                    <div class="delivery-item__name">Boxberry пункты выдачи <span>ПВЗ-03012</span></div>
+                    <div class="delivery-item__address">Олимпийский проспект, влад. 13, стр. 1, корп. А</div>
+                    <div class="delivery-item__works">Время работы: с 10:00 до 21:00, без выходных</div>
+                  </div>
+                  <div class="delivery-item__conditions">
+                    <div class="delivery-item__delivery-time">Доставка: <span>2-3 дня</span></div>
+                    <div class="delivery-item__storage-time">Срок хранения: <span>7 дней</span></div>
+                    <div class="delivery-item__shipping-cost">Стоимость доставки: <span>Бесплатно</span></div>
+                  </div>
+                  <div class="delivery-item__btns">
+                    <button class="delivery-item__btn" data-val="0">Выбрать</button>
+                  </div>
+                </div>
+                <div class="delivery-item">
+                  <div class="delivery-item__desc">
+                    <div class="delivery-item__name">Boxberry пункты выдачи <span>ПВЗ-03013</span></div>
+                    <div class="delivery-item__address">Олимпийский проспект, влад. 13, стр. 1, корп. А</div>
+                    <div class="delivery-item__works">Время работы: с 10:00 до 21:00, без выходных</div>
+                  </div>
+                  <div class="delivery-item__conditions">
+                    <div class="delivery-item__delivery-time">Доставка: <span>2-3 дня</span></div>
+                    <div class="delivery-item__storage-time">Срок хранения: <span>7 дней</span></div>
+                    <div class="delivery-item__shipping-cost">Стоимость доставки: <span>Бесплатно</span></div>
+                  </div>
+                  <div class="delivery-item__btns">
+                    <button class="delivery-item__btn" data-val="1">Выбрать</button>
+                  </div>
+                </div>
+                <div class="delivery-item">
+                  <div class="delivery-item__desc">
+                    <div class="delivery-item__name">Boxberry пункты выдачи <span>ПВЗ-03014</span></div>
+                    <div class="delivery-item__address">Олимпийский проспект, влад. 13, стр. 1, корп. А</div>
+                    <div class="delivery-item__works">Время работы: с 10:00 до 21:00, без выходных</div>
+                  </div>
+                  <div class="delivery-item__conditions">
+                    <div class="delivery-item__delivery-time">Доставка: <span>2-3 дня</span></div>
+                    <div class="delivery-item__storage-time">Срок хранения: <span>7 дней</span></div>
+                    <div class="delivery-item__shipping-cost">Стоимость доставки: <span>Бесплатно</span></div>
+                  </div>
+                  <div class="delivery-item__btns">
+                    <button class="delivery-item__btn" data-val="2">Выбрать</button>
+                  </div>
+                </div>
+                <div class="delivery-item">
+                  <div class="delivery-item__desc">
+                    <div class="delivery-item__name">Boxberry пункты выдачи <span>ПВЗ-03015</span></div>
+                    <div class="delivery-item__address">Олимпийский проспект, влад. 13, стр. 1, корп. А</div>
+                    <div class="delivery-item__works">Время работы: с 10:00 до 21:00, без выходных</div>
+                  </div>
+                  <div class="delivery-item__conditions">
+                    <div class="delivery-item__delivery-time">Доставка: <span>2-3 дня</span></div>
+                    <div class="delivery-item__storage-time">Срок хранения: <span>7 дней</span></div>
+                    <div class="delivery-item__shipping-cost">Стоимость доставки: <span>Бесплатно</span></div>
+                  </div>
+                  <div class="delivery-item__btns">
+                    <button class="delivery-item__btn" data-val="3">Выбрать</button>
+                  </div>
+                </div>
+                <div class="delivery-item">
+                  <div class="delivery-item__desc">
+                    <div class="delivery-item__name">Boxberry пункты выдачи <span>ПВЗ-03016</span></div>
+                    <div class="delivery-item__address">Олимпийский проспект, влад. 13, стр. 1, корп. А</div>
+                    <div class="delivery-item__works">Время работы: с 10:00 до 21:00, без выходных</div>
+                  </div>
+                  <div class="delivery-item__conditions">
+                    <div class="delivery-item__delivery-time">Доставка: <span>2-3 дня</span></div>
+                    <div class="delivery-item__storage-time">Срок хранения: <span>7 дней</span></div>
+                    <div class="delivery-item__shipping-cost">Стоимость доставки: <span>Бесплатно</span></div>
+                  </div>
+                  <div class="delivery-item__btns">
+                    <button class="delivery-item__btn" data-val="4">Выбрать</button>
+                  </div>
+                </div>
+              </div>
+              <div class="delivery-lists__map">
+                <div style="font-size: 24px">MAP</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="stage order-registration__stage stage__comment">
+          <h3 class="stage__title">
+            <div class="stage__number">4</div>
+            Комментарий
+          </h3>
+          <div class="stage__content stage__comment">
+            <textarea name="" id="" cols="30" rows="10" class="order-comment" placeholder="Комментарий"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="order-registration__structure">
+        <div class="structure-order">
+          <h2 class="structure-order__title">Состав заказа</h2>
+          <div class="structure-order__product-block">
+            <div class="structure-order__product-list scrollbar-inner">
+              <div class="order-product-item">
+                <div class="order-product-item__image">
+                  <img src="images/product.jpg" alt="">
+                </div>
+                <div class="order-product-item__content">
+                  <div class="order-product-item__article">Артикул: A328</div>
+                  <div class="order-product-item__name">Сковорода высокая 26 x 26 см, h=7 см Gastrolux со съемной ручкой</div>
+                  <div class="order-product-item__control">
+                    <div class="order-product-item__quantity">
+                      <button class="order-product-item__quantity-btn quantity-minus">-</button>
+                      <input type="text" class="order-product-item__quantity-value" value="1">
+                      <button class="order-product-item__quantity-btn quantity-pluse">+</button>
+                    </div>
+                    <div class="order-product-item__prices">
+                      <div class="order-product-item__discount">
+                        <span class="order-product-item__percent">-10%</span>
+                        <span class="order-product-item__old-price">12 100 ₽</span>
+                      </div>
+                      <div class="order-product-item__price">11 100 ₽</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="order-product-item">
+                <div class="order-product-item__image">
+                  <img src="images/product.jpg" alt="">
+                </div>
+                <div class="order-product-item__content">
+                  <div class="order-product-item__article">Артикул: A328</div>
+                  <div class="order-product-item__name">Сковорода высокая 26 x 26 см, h=7 см Gastrolux со съемной ручкой</div>
+                  <div class="order-product-item__control">
+                    <div class="order-product-item__quantity">
+                      <button class="order-product-item__quantity-btn quantity-minus">-</button>
+                      <input type="text" class="order-product-item__quantity-value" value="1">
+                      <button class="order-product-item__quantity-btn quantity-pluse">+</button>
+                    </div>
+                    <div class="order-product-item__prices">
+                      <div class="order-product-item__discount">
+                        <span class="order-product-item__percent">-10%</span>
+                        <span class="order-product-item__old-price">12 100 ₽</span>
+                      </div>
+                      <div class="order-product-item__price">11 100 ₽</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="order-product-item">
+                <div class="order-product-item__image">
+                  <img src="images/product.jpg" alt="">
+                </div>
+                <div class="order-product-item__content">
+                  <div class="order-product-item__article">Артикул: A328</div>
+                  <div class="order-product-item__name">Сковорода высокая 26 x 26 см, h=7 см Gastrolux со съемной ручкой</div>
+                  <div class="order-product-item__control">
+                    <div class="order-product-item__quantity">
+                      <button class="order-product-item__quantity-btn quantity-minus">-</button>
+                      <input type="text" class="order-product-item__quantity-value" value="1">
+                      <button class="order-product-item__quantity-btn quantity-pluse">+</button>
+                    </div>
+                    <div class="order-product-item__prices">
+                      <div class="order-product-item__discount">
+                        <span class="order-product-item__percent">-10%</span>
+                        <span class="order-product-item__old-price">12 100 ₽</span>
+                      </div>
+                      <div class="order-product-item__price">11 100 ₽</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="structure-order__promocode">
+            <h3 class="promocode__title">Использовать промокод</h3>
+            <div class="promocode__content">
+              <input type="text" class="promocode__input" placeholder="Введите промокод">
+              <button class="promocode__btn">Активировать</button>
+            </div>
+          </div>
+          <div class="structure-order__info">
+            <div class="structure-order__info-block">
+              <div class="structure-order__info-name">Доставка: <span>Пункт выдачи</span></div>
+              <div class="structure-order__info-price">Бесплатно</div>
+              <div class="structure-order__info-desc">Москва, Олимпийский проспект, влад. 13, стр. 1, корп. А</div>
+            </div>
+            <div class="structure-order__info-block">
+              <div class="structure-order__info-name">Оплата: <span>Картой онлайн</span></div>
+            </div>
+            
+          </div>
+          <div class="register-order">
+            <div class="register-order__result">
+              <span>Итого</span>
+              <span>44 400 ₽</span>
+            </div>
+            <div class="register-order__btns">
+              <input type="button" value="Оформить заказ" class="register-order__btn">
+              <input type="button" value="Быстрый заказ" class="register-order__btn register-order__btn-one-click">
+            </div>
+            <div class="register-order__agreement">
+              <label>
+                <input class="register-order__agreement-checkbox" type="checkbox" name="" id="">
+                <span>Я согласен <a class="register-order__agreement-link" href="#">на обработку персональных данных</a></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="register-order__mobile">
+        <div class="register-order__result">
+          <span>Итого</span>
+          <span>44 400 ₽</span>
+        </div>
+        <div class="register-order__btns">
+          <input type="button" value="Оформить заказ" class="register-order__btn">
+          <input type="button" value="Быстрый заказ" class="register-order__btn register-order__btn-one-click">
+        </div>
+        <div class="register-order__agreement">
+          <label>
+            <input class="register-order__agreement-checkbox" type="checkbox" name="" id="">
+            <span>Я согласен <a class="register-order__agreement-link" href="#">на обработку персональных данных</a></span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
