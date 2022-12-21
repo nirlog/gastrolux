@@ -1,6 +1,0 @@
-//https://market.yandex.ru/product/YANDEX_ID/offers?cpa=1&how=aprice&grhow=supplier&local-offers-first=0
-//пример https://market.yandex.ru/product/14208615/offers?cpa=1&how=aprice&grhow=supplier&local-offers-first=0
-let minPriceBlock = document.querySelector('input[name="Цена от"]');
-let minPrice = minPriceBlock.getAttribute('placeholder');
-let formatMinPrice = minPrice.replace(/\s/g, '');
-console.log(formatMinPrice);

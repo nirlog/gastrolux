@@ -1,0 +1,11 @@
+.popup__title {
+    margin: 0 0 20px 10px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}

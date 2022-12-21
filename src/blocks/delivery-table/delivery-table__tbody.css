@@ -1,0 +1,38 @@
+.delivery-table__tbody {}
+
+.delivery-table__tbody tr{
+    cursor: pointer;
+}
+.delivery-table__tbody tr.active {
+    background-color: rgba(38,59,58,.05);
+}
+
+.delivery-table__tbody .delivery-table__name {
+    border: 1px solid rgba(38, 59, 58, 0.1);
+    border-right: 0;
+}
+.delivery-table__tbody .delivery-table__period {
+    border: 1px solid rgba(38, 59, 58, 0.1);
+    border-left: 0;
+    border-right: 0;
+}
+.delivery-table__tbody .delivery-table__price {
+    border: 1px solid rgba(38, 59, 58, 0.1);
+    border-left: 0;
+}
+
+.delivery-table__tbody tr:hover .delivery-table__name {
+    border: 1px solid rgba(38, 59, 58, 0.49);
+    border-right: 0;
+}
+.delivery-table__tbody tr:hover .delivery-table__period {
+    border: 1px solid rgba(38, 59, 58, 0.49);
+    border-left: 0;
+    border-right: 0;
+}
+.delivery-table__tbody tr:hover .delivery-table__price {
+    border: 1px solid rgba(38, 59, 58, 0.49);
+    border-left: 0;
+}
+
+

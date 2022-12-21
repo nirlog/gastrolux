@@ -1,5 +1,12 @@
 @import url(../blocks/scrollbar-inner/scrollbar-inner.css);
 
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/popup_opened.css);
+@import url(../blocks/popup/popup__close.css);
+@import url(../blocks/popup/popup__container.css);
+@import url(../blocks/popup/popup__title.css);
+
+
 @import url(../blocks/order-registration/order-registration.css);
 @import url(../blocks/order-registration/order-registration__content.css);
 @import url(../blocks/order-registration/order-registration__title.css);
@@ -100,3 +107,15 @@
 @import url(../blocks/register-order/register-order__agreement-checkbox.css);
 @import url(../blocks/register-order/register-order__agreement-link.css);
 @import url(../blocks/register-order/register-order__mobile.css);
+
+@import url(../blocks/delivery-table/delivery-table.css);
+@import url(../blocks/delivery-table/delivery-table__thead.css);
+@import url(../blocks/delivery-table/delivery-table__tbody.css);
+@import url(../blocks/delivery-table/delivery-table__td.css);
+@import url(../blocks/delivery-table/delivery-table__name.css);
+@import url(../blocks/delivery-table/delivery-table__period.css);
+@import url(../blocks/delivery-table/delivery-table__price.css);
+@import url(../blocks/delivery-table/delivery-table__select.css);
+
+
+
