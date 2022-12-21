@@ -2,6 +2,7 @@
 
 .delivery-table__tbody tr{
     cursor: pointer;
+    padding: 10px;
 }
 .delivery-table__tbody tr.active {
     background-color: rgba(38,59,58,.05);
